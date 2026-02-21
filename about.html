@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>About Me</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at top, #2b1740, #0f0f14);
+    color: #e4e4e7;
+    min-height: 100vh;
+  }
+
+  /* Thin grey nav bar */
+  header {
+    background-color: #2a2a31;
+    padding: 8px 60px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:center;
+  }
+
+  nav a {
+    color:#a1a1aa;
+    text-decoration:none;
+    margin-left:25px;
+    font-size:14px;
+    padding:8px 14px;
+    border-radius:8px;
+    transition:0.3s;
+    box-shadow:0 0 0px rgba(109,40,217,0);
+  }
+
+  nav a:hover {
+    color:#fff;
+    box-shadow:0 0 12px rgba(109,40,217,0.7);
+  }
+
+  .active {
+    background-color:#6d28d9;
+    color:white;
+    box-shadow:0 0 12px rgba(109,40,217,0.7);
+  }
+
+  .container {
+    max-width:900px;
+    margin:60px auto;
+    padding:0 20px;
+  }
+
+  h1 {
+    font-size:34px;
+    margin-bottom:10px;
+  }
+
+  .subtitle {
+    color:#c084fc;
+    font-style:italic;
+    margin-bottom:30px;
+  }
+
+  .about-card {
+    background-color:#1a1a21;
+    border-radius:18px;
+    padding:30px;
+    box-shadow:0 0 25px rgba(0,0,0,0.4);
+  }
+
+  .about-card p {
+    color:#a1a1aa;
+    line-height:1.7;
+    margin-bottom:18px;
+  }
+
+  footer {
+    text-align:center;
+    margin-top:60px;
+    padding:20px;
+    color:#71717a;
+    font-size:13px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="socials.html">Links</a>
+    <a href="about.html" class="active">About Me</a>
+  </nav>
+</header>
+
+<div class="container">
+  <h1>About Me</h1>
+  <div class="subtitle">A little bit about Pine</div>
+
+  <div class="about-card">
+    <p>
+      Hi! I'm Pine — a cozy chaotic axolotl cat :3
+    </p>
+
+    <p>
+      I enjoy streaming, art, Coding, and building small games for fun :3.
+      Curently working on a low-poly n64 style game but no spoilers yet.
+    </p>
+
+    <p>
+      Whether you're here from Twitch, Valour, or just exploring — welcome!
+    </p>
+
+    <p>
+      Thanks for stopping by!
+    </p>
+  </div>
+</div>
+
+<footer>
+  © 2026
+</footer>
+
+</body>
+</html>
